@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    background: rgba(0,0,0,0.7);
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.card {
+    background: #1e2a38;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-custom {
+    background: #c8a97e;
+    border: none;
+    color: black;
+}
+
+.btn-custom:hover {
+    background: white;
+}
